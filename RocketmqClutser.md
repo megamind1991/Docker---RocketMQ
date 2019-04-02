@@ -3,7 +3,7 @@
 
 # broker镜像文件重构
 
-    # Start from a Java image.
+    # Start from a Java image.11
     FROM java:8
 
     # Rocketmq version
