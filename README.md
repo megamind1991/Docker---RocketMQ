@@ -20,7 +20,7 @@
         volumes:
           - "/rocketmq/broker/a-m/logs:/opt/logs"
           - "/rocketmq/broker/a-m/stor/opt/store"
-          - "/rocketmq/broker/a-m/conf:/opt/conf"
+          - "/rocketmq/broker/a-m/conf:/opt/conf111"
         links:
           - namesrv:namesrv
       console:
