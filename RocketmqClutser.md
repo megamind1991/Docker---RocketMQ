@@ -5,9 +5,9 @@
 
     # Start from a Java image.11
     FROM java:8
-
+git p
     # Rocketmq version
-    ENV ROCKETMQ_VERSION 4.2.0
+    ENV ROCKETMQ_VERSION 4.2.0111
 
     # Rocketmq home
     ENV ROCKETMQ_HOME  /opt/rocketmq-${ROCKETMQ_VERSION}
